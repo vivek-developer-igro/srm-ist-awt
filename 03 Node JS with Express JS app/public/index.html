@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Node-Express Client</title>
+  </head>
+  <body>
+    <h1>Client-Server Demo</h1>
+    <button id="getGreeting">Get Greeting</button>
+    <p id="greeting"></p>
+
+    <script>
+      document.getElementById("getGreeting").onclick = function () {
+        fetch("/api/greet")
+          .then((response) => response.json())
+          .then((data) => {
+            document.getElementById("greeting").textContent = data.message;
+          });
+      };
+    </script>
+  </body>
+</html>
