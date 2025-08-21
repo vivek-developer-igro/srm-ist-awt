@@ -1,4 +1,4 @@
 ### Installation instruction
 ```
-npm install react-redux
+npm install redux react-redux
 ```
