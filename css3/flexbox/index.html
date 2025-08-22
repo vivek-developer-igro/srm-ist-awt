@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Example</title>
+    <style>
+      .flex-container {
+        display: flex; /* Makes the container a flex container */
+        flex-direction: row; /* Arranges items in a row (default) */
+        justify-content: space-between; /* Distributes space around items */
+        align-items: end; /* Aligns items vertically in the center */
+        border: 2px solid blue;
+        height: 200px; /* For demonstration of vertical alignment */
+      }
+
+      .flex-item {
+        background-color: lightcoral;
+        color: white;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item">Item 1</div>
+      <div class="flex-item">Item 2</div>
+      <div class="flex-item">Item 3</div>
+    </div>
+  </body>
+</html>

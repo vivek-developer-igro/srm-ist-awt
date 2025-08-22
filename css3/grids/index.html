@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grids</title>
+    <style>
+      .grid-container {
+        display: grid; /* Enables CSS Grid Layout */
+        grid-template-columns: 1fr 2fr; /* Defines two columns: one taking 1 fraction of space, the other 2 fractions */
+        grid-template-rows: auto 1fr auto; /* Defines three rows: auto-height for header/footer, 1 fraction for main content */
+        gap: 20px; /* Adds a 20px gap between grid items */
+        max-width: 960px; /* Sets a maximum width for the container */
+        margin: 0 auto; /* Centers the container horizontally */
+        border: 1px solid #ccc; /* Adds a border for visualization */
+        padding: 15px; /* Adds padding inside the container */
+      }
+
+      .grid-item {
+        background-color: red; /* Light gray background for grid items */
+        border: 1px solid #ddd; /* Light border for grid items */
+        padding: 10px; /* Padding inside each grid item */
+        text-align: center; /* Centers text within items */
+      }
+
+      /* Positioning specific grid items */
+      .header {
+        grid-column: 1 / span 2; /* Header spans both columns */
+      }
+
+      .main {
+        grid-column: 2; /* Main content occupies the second column */
+        grid-row: 3; /* Main content occupies the second row */
+      }
+
+      .sidebar {
+        grid-column: 1; /* Sidebar occupies the first column */
+        grid-row: 3; /* Sidebar occupies the second row */
+      }
+
+      .footer {
+        grid-column: 1 / span 2; /* Footer spans both columns */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="grid-item header">Header</header>
+      <main class="grid-item main">Main Content</main>
+      <aside class="grid-item sidebar">Sidebar</aside>
+      <footer class="grid-item footer">Footer</footer>
+    </div>
+  </body>
+</html>
