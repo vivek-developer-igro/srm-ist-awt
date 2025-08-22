@@ -4,12 +4,6 @@
 
 - Make sure Node.js and npm are installed on your system.
 - Create a React app:
-## Steps to Deploy a React App on Netlify
-
-### 1. Prepare Your React App
-
-- Make sure Node.js and npm are installed on your system.
-- Create a React app:
 
 ```
 npm create vite@latest
