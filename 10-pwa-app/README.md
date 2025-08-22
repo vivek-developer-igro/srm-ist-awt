@@ -2,7 +2,7 @@
 
 ### 1. Prepare Your React App
 
-- Make sure Node.js and npm are installed on your system.[^1]
+- Make sure Node.js and npm are installed on your system.
 - Create a React app:
 
 ```
@@ -10,7 +10,7 @@
 
 ### 1. Prepare Your React App
 
-- Make sure Node.js and npm are installed on your system.[^1]
+- Make sure Node.js and npm are installed on your system.
 - Create a React app:
 
 ```
@@ -25,7 +25,7 @@ npm create vite@latest
 npm run build
 ```
 
-This will generate a `build` directory containing the optimized site.[^2][^4][^1]
+This will generate a `build` directory containing the optimized site.
 
 
 ### 3. Three Deployment Methods
@@ -38,15 +38,15 @@ This will generate a `build` directory containing the optimized site.[^2][^4][^1
     - Connect to GitHub and select your repository.
     - Set **Build command**: `npm run build`
     - Set **Publish directory**: `build`
-- Click **Deploy site**.[^5][^1][^2]
+- Click **Deploy site**.
 
 
 #### B. **Manual Drag \& Drop**
 
 - After building, go to Netlify dashboard.
-- Click **Add New Site** > **Deploy manually**.[^4]
+- Click **Add New Site** > **Deploy manually**.
 - Drag \& drop your `build` (or `dist` for TypeScript) folder into the upload area.
-- Netlify will deploy and provide a public URL.[^4]
+- Netlify will deploy and provide a public URL.
 
 
 #### C. **Using Netlify CLI**
@@ -65,12 +65,12 @@ npm run build
 netlify deploy
 ```
 
-    - Follow prompts to select the `build` directory and configure deploy settings.[^3][^2]
+    - Follow prompts to select the `build` directory and configure deploy settings.
 
 
 ### 4. Continuous Deployment Option (GitHub Integration)
 
-- Any push to your selected branch triggers a build and redeployment.[^5]
+- Any push to your selected branch triggers a build and redeployment.
 
 
 ### 5. Special Note for React Router
@@ -82,12 +82,12 @@ netlify deploy
 /* /index.html 200
 ```
 
-    - Or, configure this in `netlify.toml`.[^3]
+    - Or, configure this in `netlify.toml`.
 
 
 ### 6. View Your Site
 
-- After deployment, Netlify gives you a public subdomain: `https://<your-site-name>.netlify.app`.[^1][^4]
+- After deployment, Netlify gives you a public subdomain: `https://<your-site-name>.netlify.app`.
 
 ***
 
@@ -110,7 +110,7 @@ npm start
 npm run build
 ```
 
-This will generate a `build` directory containing the optimized site.[^2][^4][^1]
+This will generate a `build` directory containing the optimized site.
 
 
 ### 3. Three Deployment Methods
@@ -129,9 +129,9 @@ This will generate a `build` directory containing the optimized site.[^2][^4][^1
 #### B. **Manual Drag \& Drop**
 
 - After building, go to Netlify dashboard.
-- Click **Add New Site** > **Deploy manually**.[^4]
+- Click **Add New Site** > **Deploy manually**.
 - Drag \& drop your `build` (or `dist` for TypeScript) folder into the upload area.
-- Netlify will deploy and provide a public URL.[^4]
+- Netlify will deploy and provide a public URL.
 
 
 #### C. **Using Netlify CLI**
@@ -150,12 +150,12 @@ npm run build
 netlify deploy
 ```
 
-    - Follow prompts to select the `build` directory and configure deploy settings.[^3][^2]
+    - Follow prompts to select the `build` directory and configure deploy settings.
 
 
 ### 4. Continuous Deployment Option (GitHub Integration)
 
-- Any push to your selected branch triggers a build and redeployment.[^5]
+- Any push to your selected branch triggers a build and redeployment.
 
 
 ### 5. Special Note for React Router
@@ -167,12 +167,12 @@ netlify deploy
 /* /index.html 200
 ```
 
-    - Or, configure this in `netlify.toml`.[^3]
+    - Or, configure this in `netlify.toml`.
 
 
 ### 6. View Your Site
 
-- After deployment, Netlify gives you a public subdomain: `https://<your-site-name>.netlify.app`.[^1][^4]
+- After deployment, Netlify gives you a public subdomain: `https://<your-site-name>.netlify.app`.
 
 ***
 
